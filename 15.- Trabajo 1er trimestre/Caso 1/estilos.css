@@ -1,0 +1,12 @@
+#container{
+background-color: blue;
+display: flex;
+flex-direction:column;
+}
+.hijos{
+background-color: red;
+margin: 20px;
+padding: 20px 0px 0px 20px;
+width: 60px;
+height: 60px;
+}

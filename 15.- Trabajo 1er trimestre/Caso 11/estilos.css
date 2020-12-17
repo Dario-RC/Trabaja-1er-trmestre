@@ -1,0 +1,19 @@
+#container{
+background-color: blue;
+display: flex;
+flex-wrap: wrap;
+align-content: stretch;
+height: 640px;
+}
+.hijos:nth-child(odd){
+background-color: green;
+margin: 20px;
+padding: 20px 0px 0px 20px;
+width: 80px;
+}
+.hijos:nth-child(even){
+background-color: red;
+margin: 20px;
+padding: 20px 0px 0px 20px;
+width: 80px;
+}

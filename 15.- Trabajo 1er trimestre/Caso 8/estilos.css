@@ -1,0 +1,34 @@
+#container{
+background-color: blue;
+display: flex;
+align-items: flex-end;
+height: 500px;
+}
+#hijo1{
+background-color: purple;
+margin: 20px;
+padding: 20px 0px 0px 20px;
+width: 60px;
+height: 80px;
+}
+#hijo2{
+background-color: red;
+margin: 20px;
+padding: 20px 0px 0px 20px;
+width: 60px;
+height: 80px;
+}
+#hijo3{
+background-color: purple;
+margin: 20px;
+padding: 20px 0px 0px 20px;
+width: 60px;
+height: 80px;
+}
+#hijo4{
+background-color: red;
+margin: 20px;
+padding: 20px 0px 0px 20px;
+width: 60px;
+height: 80px;
+}
