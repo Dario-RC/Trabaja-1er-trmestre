@@ -1,4 +1,4 @@
-# Trabaja-1er-trmestre
+# Trabajo 1er trimestre
 
   - display: flex; --> es lo primero que hay que indicar, sirve para activar estas herramientas.
   - flex-direction: column; --> coloca los elementos en una columna.
