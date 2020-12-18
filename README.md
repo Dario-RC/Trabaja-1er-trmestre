@@ -1,20 +1,21 @@
 # Trabaja-1er-trmestre
 
-  - display:flex; --> es lo primero que hay que hacer, sirve para activar estas indicaciones.
-  - flex-direction: colunm; --> coloca los elementos en una columna.
+  - display: flex; --> es lo primero que hay que indicar, sirve para activar estas herramientas.
+  - flex-direction: column; --> coloca los elementos en una columna.
   - justify-content: flex-end; --> coloca los elementos pegados al margen derecho.
-  - justify-content: space-around; --> crea un espacio igual entre los elementos y los bordes de la pantalla, un div padre...
-  - justify-content: space-between; --> crea un espacio igual sólo entre los elementos, pero no con los bordes.
+  - justify-content: space-around; --> crea un espacio igual entre los elementos y entre los bordes del contenedor.
+  - justify-content: space-between; --> crea un espacio igual sólo entre los elementos, no con los bordes.
   - align-items: center; --> coloca los elementos con su línea central hipotética a la misma altura.
-  - align-items: flex-start; --> coloca los elementos
-  - align-items: stretch; -->
-  - align-items: flex-end; -->
-  - flex-wrap: wrap; -->
-  - flex-wrap: nowrap; -->
-  - align-content: space-around; -->
-  - align-content: space-between; -->
-  - align-content: stretch; -->
-  - align-content: center; -->
-  - align-content: flex-start; -->
-  - align-content: flex-end; -->
-  - flex-grow: "número"; -->
+  - align-items: flex-start; --> coloca los elementos al principio del contenedor (arriba).
+  - align-items: stretch; --> los elementos flexibles se estiran hasta que la altura sea la misma que la de su contenedor.
+  - align-items: flex-end; --> coloca los elementos al final del contenedor (abajo).
+  - flex-wrap: wrap; --> indica que si los elementos no caben en una línea pueden pasar a la siguiente.
+  - flex-wrap: nowrap; --> indica que los elementos deben permanecer en una línea aunque no quepan.
+  - align-content: space-around; --> las líneas se colocan de manera uniforme, en la vertical, dentro del contenedor. Crea un espacio igual entre los elementos y entre los bordes del contenedor.
+  - align-content: space-between; --> las líneas se colocan de manera uniforme, en la vertical, dentro del contenedor. Crea un espacio igual sólo entre los elementos, no con los bordes.
+  - align-content: stretch; --> las líneas son estiradas para usar el espacio sobrante. El espacio libre en el contenedor es dividido por igual entre todas las líneas.
+  - align-content: center; --> las líneas se colocan en el centro vertical del contenedor.
+  - align-content: flex-start; --> coloca las líneas al principio del contendor (arriba), la siguiente fila se une a la anterior.
+  - align-content: flex-end; --> coloca las líneas al final del contendor (abajo), la fila que esté por encima se une a la de abajo.
+  - flex-grow: "número"; --> indica la relación proporcional entre los elementos en su eje principal.
+  - height: "número"px; --> indica la altula del elemento en píxeles.
